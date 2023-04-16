@@ -851,7 +851,7 @@ a:hover {
 }
 
 .work-content {
-  padding: 20px 20px 20px 20px;
+  /* padding: 20px 20px 20px 20px; */
   text-align: center;
 }
 
@@ -922,7 +922,10 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
 }
-
+.card-blog .card-description {
+  color: #4e4e4e;
+  height: 133px;
+}
 @media (min-width: 768px) {
   .testimonial-box .description {
     padding: 0 5rem;
@@ -1296,4 +1299,9 @@ footer .credits a {
 .img-fluid1 {
   width: 100%;
   height: 156px;
+}
+
+p.lead1 {
+  margin-top: 20px;
+  margin-left: 33px;
 }
